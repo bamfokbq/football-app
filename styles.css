@@ -47,7 +47,15 @@ img{
     font-size: 13px;
     margin-bottom: 15px;
 }
-
+.triangle{
+      width: 0;
+      height: 0;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      border-top: 60px solid #c00000;
+      margin-top: -18px;
+  transform: translateX(160px) skew(45deg);
+}
 .details{
     text-transform: uppercase;
     margin-top: 20px;
@@ -66,6 +74,6 @@ border-radius: 200px;
  background-color: #6e6e6e;
  height: 100%;
  width: 45%;
-border-radius: 200px;
+ border-radius: 200px;
 }
 
